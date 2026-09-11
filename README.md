@@ -71,8 +71,8 @@ sudo apt install -y git wl-clipboard   # Wayland
 
 # Clone and install
 git clone https://github.com/byte4day/PxForge.git
-cd pxforge
-pip install -r requirements.txt
+cd PxForge
+python3 -m pip install -r requirements.txt
 python3 pxforge.py install
 ```
 
@@ -84,8 +84,8 @@ sudo pacman -S git xclip     # X11
 sudo pacman -S git wl-clipboard  # Wayland
 
 git clone https://github.com/byte4day/PxForge.git
-cd pxforge
-pip install -r requirements.txt
+cd PxForge
+python3 -m pip install -r requirements.txt
 python3 pxforge.py install
 ```
 
@@ -95,8 +95,8 @@ python3 pxforge.py install
 sudo dnf install -y git xclip
 
 git clone https://github.com/byte4day/PxForge.git
-cd pxforge
-pip install -r requirements.txt
+cd PxForge
+python3 -m pip install -r requirements.txt
 python3 pxforge.py install
 ```
 
@@ -121,7 +121,7 @@ The `install` command writes a wrapper script to `~/.local/bin/pxforge` and adds
 brew install python git
 
 git clone https://github.com/byte4day/PxForge.git
-cd pxforge
+cd PxForge
 pip3 install -r requirements.txt
 python3 pxforge.py install
 source ~/.zshrc
@@ -131,8 +131,8 @@ source ~/.zshrc
 
 ```bash
 git clone https://github.com/byte4day/PxForge.git
-cd pxforge
-pip install -r requirements.txt
+cd PxForge
+python3 -m pip install -r requirements.txt
 python pxforge.py install
 source ~/.zshrc
 ```
@@ -152,8 +152,8 @@ Open PowerShell as a regular user (no admin required):
 # Then:
 
 git clone https://github.com/byte4day/PxForge.git
-cd pxforge
-pip install -r requirements.txt
+cd PxForge
+python3 -m pip install -r requirements.txt
 python pxforge.py install
 ```
 
@@ -169,8 +169,8 @@ If you have WSL2 set up, the Linux install path works identically inside your WS
 
 ```bash
 git clone https://github.com/byte4day/PxForge.git
-cd pxforge
-pip install -r requirements.txt
+cd PxForge
+python3 -m pip install -r requirements.txt
 python3 pxforge.py install
 source ~/.bashrc
 ```
@@ -179,8 +179,8 @@ source ~/.bashrc
 
 ```cmd
 git clone https://github.com/byte4day/PxForge.git
-cd pxforge
-pip install -r requirements.txt
+cd PxForge
+python3 -m pip install -r requirements.txt
 python pxforge.py install
 ```
 
